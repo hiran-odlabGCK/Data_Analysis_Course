@@ -8,19 +8,38 @@
 			margin: 0;
 			padding: 0;
 			font-family: Arial, sans-serif;
+			background-image: url("GCK-DATA-LAB-WALL-2.png");
+            		background-repeat: no-repeat;
+            		background-size: cover;
 		}
 		header {
-			background-color: #333;
+			background-color: lightgrey;
 			color: #fff;
 			text-align: center;
 			padding: 20px;
 		}
+		.logo-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.logo {
+			height: 60px;
+			margin: 12px;
+		}
+		.logo-left {
+			margin-right: auto;
+		}
+		.logo-right {
+			margin-left: auto;
+        	}
 		footer {
 			text-align: center;
 		}
 		h1 {
 			margin: 0;
-			font-size: 32px;
+			font-size: 50px;
+			color: black;
 		}
 		.container {
 			max-width: 1200px;
@@ -96,7 +115,11 @@
 </head>
 <body>
 	<header>
-		<h1>DATA ANALYSIS MICRO-COURES</h1>
+		<div class="logo-container">
+			<img class="logo logo-left" src="gck-open-data-lab.png" alt="Left Logo">
+			<h1>DATA ANALYSIS MICRO-COURES</h1>
+			<img class="logo logo-left" src="logo.png" alt="Left Logo">
+		</div>
 	</header>
 	<div class="container">
 		<div class="button-container">
