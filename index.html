@@ -30,7 +30,12 @@
 			text-align: center;
 			padding: 20px;
 		}
-
+		
+		.logo-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
 		.logo {
 			height: 60px;
 			margin: 12px;
@@ -39,11 +44,11 @@
 		}
 		.logo-left {
 			float: left;
-			margin-right: 20px;
+			margin-right: auto;
 		}
 		.logo-right {
 			float: right;
-			margin-left: 20px;
+			margin-left: auto;
         	}
 		
 		footer {
@@ -131,9 +136,11 @@
 </head>
 <body>
 	<header>
-		<img class="logo logo-left" src="gck-open-data-lab.png" alt="Left Logo">
-		<h1>DATA ANALYSIS MICRO-COURES</h1>
-		<img class="logo logo-left" src="logo.png" alt="Left Logo">
+		<div class="logo-container">
+			<img class="logo logo-left" src="gck-open-data-lab.png" alt="Left Logo">
+			<h1>DATA ANALYSIS MICRO-COURES</h1>
+			<img class="logo logo-left" src="logo.png" alt="Left Logo">
+		</div>
 	</header>
 	<div class="container">
 		<div class="button-container">
